@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Platform } from 'react-native';
+import { View, Text, Platform, StyleSheet } from 'react-native';
 
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' +
@@ -15,7 +15,7 @@ export default class Homescreen extends Component {
                 <Text style={styles.welcome}>
                     Homescreen component goes here!
                     </Text>
-                <Text style={style.instructions}>
+                <Text style={styles.instructions}>
                     {instructions}
                 </Text>
             </View>
