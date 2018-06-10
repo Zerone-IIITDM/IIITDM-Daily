@@ -12,6 +12,9 @@ export default class Homescreen extends Component {
                     <Text style={{color:'#00a85e', fontSize:18}}>Create{" "}</Text>
                     <Text style={{color:'#5c5a5f', fontSize:18}}>Innovate</Text>
                 </View>
+                <View style={styles.underHeaderHome}>
+                    <Text>An insititute of National Importance specialized in IT Enabled Design and Manufacturing</Text>
+                </View>
             </View>
         );
     }
@@ -31,7 +34,11 @@ const styles = StyleSheet.create({
     },
     headerHome: {
         flexDirection:'row',
-        borderColor:'black',
-        borderWidth: 2
+    },
+    underHeaderHome: {
+        flex:0.1,
+        width:250,
+        justifyContent:'center',
+        alignItems:'center',
     }
 });
