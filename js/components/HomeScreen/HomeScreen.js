@@ -6,7 +6,11 @@ export default class Homescreen extends Component {
         return (
             <View style={styles.container}>
                 <View style={styles.instiLogo}>
-
+                </View>
+                <View style={styles.headerHome}>
+                    <Text style={{color:'#3f2663', fontSize:18}}>Design{" "}</Text>
+                    <Text style={{color:'#00a85e', fontSize:18}}>Create{" "}</Text>
+                    <Text style={{color:'#5c5a5f', fontSize:18}}>Innovate</Text>
                 </View>
             </View>
         );
@@ -22,6 +26,11 @@ const styles = StyleSheet.create({
     instiLogo: {
         flex:0.1,
         width:75,
+        borderColor:'black',
+        borderWidth: 2
+    },
+    headerHome: {
+        flexDirection:'row',
         borderColor:'black',
         borderWidth: 2
     }
