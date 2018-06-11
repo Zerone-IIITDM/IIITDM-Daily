@@ -5,40 +5,87 @@ exports[`renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Object {
-        "fontSize": 20,
-        "margin": 10,
-        "textAlign": "center",
+        "borderColor": "black",
+        "borderWidth": 2,
+        "flex": 0.1,
+        "width": 75,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
       }
     }
   >
-    Homescreen component goes here!
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#3f2663",
+          "fontSize": 18,
+        }
+      }
+    >
+      Design
+       
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#00a85e",
+          "fontSize": 18,
+        }
+      }
+    >
+      Create
+       
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5c5a5f",
+          "fontSize": 18,
+        }
+      }
+    >
+      Innovate
+    </Text>
+  </View>
+  <View
     style={
       Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+        "alignItems": "center",
+        "flex": 0.1,
+        "justifyContent": "center",
+        "width": 250,
       }
     }
   >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      An insititute of National Importance specialized in IT Enabled Design and Manufacturing
+    </Text>
+  </View>
 </View>
 `;
