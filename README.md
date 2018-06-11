@@ -1,3 +1,4 @@
+[![Build Status](https://semaphoreci.com/api/v1/zeroneiiitdm/iiitdm-daily/branches/master/badge.svg)](https://semaphoreci.com/zeroneiiitdm/iiitdm-daily)
 # IIITDM Daily App
 This repository contains the front-end code for IIITDM Daily mobile app. The code is common to both iOS and Android.
 
